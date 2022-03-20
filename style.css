@@ -115,3 +115,35 @@ input[type="file"]{
 }
 
 
+
+@media screen and (max-width: 1550px) and (min-width:500px) {
+    
+    .img{
+        height: 40vh;
+        width: 90vw;
+    }
+    .side{
+        
+        height: 60vh;
+        width: 90vw;
+    }
+   .upload{
+       width: 90vw;
+       flex-direction: column;
+   }
+   .btn{
+       height: 10vh;
+       width: 30vw;
+   }
+   .editor{
+       height: 30vh;
+       pad: 50px;
+   }
+   input[type=range]{
+    margin-bottom: 20px;
+    width: 80vw;
+   }
+   .filter{
+       width: 90vw;
+   }
+  }
